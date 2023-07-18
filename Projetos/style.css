@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: rgb(197, 179, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.borde-dark{
+}
