@@ -23,35 +23,39 @@ var num2 = 25;
    // console.log("falso");
 //}
 
-var frutas = ["laranja", "manga", "mamão", 30, false, true];
-let resultado = frutas;
+var frutas = [
+        "laranja", 
+        "manga", 
+        "mamão", 
+    ];
+
+let resultado = false;
+//let lista = resultado.toLowerCase() == true;
+let fruta = value => [true, false].includes(value) ? value === true : null;
 
     if(frutas.includes("laranja")){
-        resultado = "verdade";
-        console.log("verdade");
+
+        resultado = 'verdade';
     }else if(frutas.includes("manga")){
+
         resultado = "verdade";
-        console.log("verdade");
     }else if(frutas.includes("mamão")){
+
         resultado = "verdade";
-        console.log("verdade");
-    }else if(frutas.includes("30")){
-        resultado = "verdade";
-        console.log("verdade");
-    }else if((frutas.includes !== "") && (frutas.includes !== null) && (frutas.includes !== undefined)){
-       resultado = "falso";
-       console.log("falso");
+    }else{
+        
+        resultado = 'falso';
     }
 
     console.log(resultado);
     document.write(resultado);
 
     
-    //function error(){
+    // function listas(){
     //    if((frutas !== "") && (frutas !== null) && (frutas !== undefined)){
     //        return false;
     //    }
-    //}
+    // }
 
 
 //for (var i = 0; i <= 10; i++){
